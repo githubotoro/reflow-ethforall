@@ -5,7 +5,7 @@ require("dotenv").config();
 const ReflowABI = require("../artifacts/contracts/Reflow.sol/Reflow.json").abi;
 
 async function main() {
-	const reflowAddress = "0x78958e8057C457E10351Fd38ff8b9aC0645556C8";
+	const reflowAddress = "0xc895Fb58F8D19583fDD5Bbebe17925bd541f67aB";
 
 	const provider = new hre.ethers.providers.JsonRpcProvider(
 		process.env.ALCHEMY_POLYGON_MUMBAI_RPC_URL
